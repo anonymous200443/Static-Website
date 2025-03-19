@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us - Delicious Bites</title>
+    <link rel="stylesheet" href="../static-Files/styles/styles.css">
+    <style>
+        /* Global Styles */
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        body {
+            font-family: 'Poppins', sans-serif;
+            margin: 0;
+            padding: 0;
+            background: linear-gradient(to right, #ff7e5f, #feb47b);
+            color: white;
+            text-align: center;
+            background-image:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url("../static-Files/styles/hero.jpg");
+            height: 100vh;
+            background-attachment: fixed;
+            background-size: cover;
+            background-position: center;        }
+
+        /* Header */
+        header {
+            padding: 10px;
+            background: rgba(0, 0, 0, 0.5);
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            font-size: 28px;
+            font-weight: bold;
+            text-transform: uppercase;
+            height: 5rem;
+            margin-bottom: 20px;
+            border-bottom-right-radius:5px ;
+            border-bottom-left-radius: 5px;
+        }
+
+        /* Introduction Section */
+        .intro {
+            margin: 0 auto;
+            padding: 50px 20px;
+            font-size: 18px;
+            max-width: 800px;
+        
+            background: rgba(255, 255, 255, 0.2);
+            border-radius: 10px;
+        }
+
+        /* Team Section */
+        .team {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            padding: 50px 20px;
+            height:17.28rem;
+        }
+
+        .team-member {
+            background: rgba(255, 255, 255, 0.1);
+            padding: 20px;
+            margin: 20px;
+            border-radius: 10px;
+            width: 250px;
+            text-align: center;
+            transition: transform 0.3s ease-in-out, background 0.3s ease-in-out;
+        }
+
+        .team-member:hover {
+            transform: scale(1.05);
+            background: rgba(255, 255, 255, 0.2);
+        }
+
+        .team-member img {
+            width: 120px;
+            height: 120px;
+            border-radius: 50%;
+            object-fit: cover;
+            border: 3px solid white;
+            transition: transform 0.3s ease-in-out;
+        }
+
+        .team-member img:hover {
+            transform: rotate(5deg);
+        }
+
+        .team-member h3 {
+            margin-top: 15px;
+            font-size: 20px;
+        }
+
+        .team-member p {
+            font-size: 14px;
+            opacity: 0.8;
+        }
+
+        /* Footer */
+        footer {
+            padding: 10px;
+            background: rgba(0, 0, 0, 0.5);
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+
+    <header>About Us</header>
+
+    <section class="intro">
+        <p>Welcome to <strong>Delicious Bites</strong>! We are passionate about crafting mouthwatering dishes made from the freshest ingredients. Our mission is to bring you a delightful culinary experience that satisfies your cravings and warms your heart. Whether you're a foodie or just looking for a quick bite, we have something special for everyone!</p>
+    </section>
+
+    <section class="team">
+        <div class="team-member">
+            <img src="../static-Files/images/chef1.jpeg" alt="Chef Alex">
+            <h3>Chef Alex</h3>
+            <p>Head Chef & Recipe Creator</p>
+        </div>
+        <div class="team-member">
+            <img src="../static-Files/images/chef2.jpeg" alt="Sophia Carter">
+            <h3>Sophia Carter</h3>
+            <p>Pastry Chef & Dessert Expert</p>
+        </div>
+        <div class="team-member">
+            <img src="../static-Files/images/chef3.jpeg" alt="Liam Brown">
+            <h3>Liam Brown</h3>
+            <p>Food Blogger & Tasting Specialist</p>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Delicious Bites. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
