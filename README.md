@@ -1,4 +1,7 @@
  🍽️ Food Haven - A Delicious Journey
+ ![banner](https://github.com/user-attachments/assets/3598a1b5-a717-4fd9-8348-c47e87d5dce0)
+
+
 
 Welcome to Food Haven, your ultimate destination for mouthwatering recipes, food blogs, and culinary inspiration! Whether you're a passionate home cook or a food enthusiast looking for new flavors, our website has something for everyone.
 
